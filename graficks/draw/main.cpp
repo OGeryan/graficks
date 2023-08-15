@@ -376,11 +376,11 @@ int main ()
 		
 			SDL_SetRenderDrawColor(Renderer, 255, 255, 255, 255); //DEFAULT DRAW COLOR
 			
-			MSGSurface_r = TTF_RenderText_Solid(Font1, CLR_RTXT.c_str(), CRed);//MAKE A RED NUMBER, ASSIGNED TO A RECTANGLE ON THE BUTTON RIGHT OF THE SCREEN
+			MSGSurface_r = TTF_RenderText_Solid(Font1, CLR_RTXT.c_str(), CRed);//MAKE A RED NUMBER, ASSIGNED TO A RECTANGLE ON THE BOTTOM RIGHT OF THE SCREEN
 			MSG_r = SDL_CreateTextureFromSurface(Renderer, MSGSurface_r);///MAKE THE NUMBER A TEXTURE
-			MSGSurface_g = TTF_RenderText_Solid(Font1, CLR_GTXT.c_str(), CGreen);//MAKE A GREEN NUMBER, ASSIGNED TO A RECTANGLE ON THE BUTTON RIGHT OF THE SCREEN
+			MSGSurface_g = TTF_RenderText_Solid(Font1, CLR_GTXT.c_str(), CGreen);//MAKE A GREEN NUMBER, ASSIGNED TO A RECTANGLE ON THE BOTTOM RIGHT OF THE SCREEN
 			MSG_g = SDL_CreateTextureFromSurface(Renderer, MSGSurface_g); //~
-			MSGSurface_b = TTF_RenderText_Solid(Font1, CLR_BTXT.c_str(), CBlue);//MAKE A BLUE NUMBER, ASSIGNED TO A RECTANGLE ON THE BUTTON RIGHT OF THE SCREEN
+			MSGSurface_b = TTF_RenderText_Solid(Font1, CLR_BTXT.c_str(), CBlue);//MAKE A BLUE NUMBER, ASSIGNED TO A RECTANGLE ON THE BOTTOM RIGHT OF THE SCREEN
 			MSG_b = SDL_CreateTextureFromSurface(Renderer, MSGSurface_b);//~
 			
 			MSGSurface_s = TTF_RenderText_Solid(Font1, GRD_TXT.c_str(), CWhite);
