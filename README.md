@@ -13,5 +13,5 @@ I don't remember but the code's commented and is included.
 # installing
 download.
 
-# appearantly it wants permissions
+# apparently it wants permissions
 no clue, it's sdl. your choice to allow it or not. ...besides, all the code's there. you can recompile it if you're unsure.
