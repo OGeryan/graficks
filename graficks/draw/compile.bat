@@ -1,0 +1,2 @@
+g++ C:/Users/Geryan/Documents/C++/projects/graficks/draw1/main.cpp -o C:/Users/Geryan/Documents/C++/projects/graficks/draw1/GRAFICKS.exe -IC:\Users\Geryan\Documents\SDL_Libs\include\SDL2 -LC:\Users\Geryan\Documents\SDL_Libs\lib -w -Wl,-subsystem,windows -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf
+pause
